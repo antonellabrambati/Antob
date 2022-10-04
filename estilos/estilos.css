@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Estilo del cuerpo*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url(../imagenes/fondito.jpg);
+  color: black;
+  font-family: "Quicksand", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow-y: auto;
+}
+
+/*Fin del estilo del cuerpo*/
+/*anclas*/
+a {
+  transition-property: color;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in;
+}
+
+a:hover {
+  color: red;
+}
+
+/*fin de ancla*/
+/*imagen de logo con rotacion*/
+.imagenlogo img:hover {
+  transform: rotate(25deg) scale(1);
+}
+
+.cabecera {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paginas {
+  display: flex;
+  align-items: center;
+}
+.paginas ul {
+  display: flex;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  text-decoration: underline;
+  text-decoration-color: black;
+  text-align: center;
+  padding: 1em;
+}
+
+h2 {
+  text-decoration: underline;
+  text-decoration-color: black;
+  padding: 1em;
+}
+
+h3 {
+  text-decoration: underline;
+  text-decoration-color: black;
+  padding: 1em;
+}
+
+h4 {
+  text-decoration: underline;
+  text-decoration-color: black;
+  padding: 1em;
+}
+
+h5 {
+  text-decoration: underline;
+  text-decoration-color: black;
+  text-align: center;
+  padding: 1%;
+}
+
+p {
+  color: black;
+  font-style: italic;
+  font-family: "Edu SA Beginner", cursive;
+  padding: 1em;
+}
+
+/*imagenes encolumnadas*/
+.imagenes {
+  display: grid;
+  grid-template-columns: minmax(20%, 25%) minmax(20%, 25%) minmax(20%, 25%) minmax(20%, 25%) minmax(20%, 25%);
+  row-gap: 1.5%;
+  column-gap: 1%;
+}
+
+/*Inicio del Formulario*/
+.content {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+.content .contact-form {
+  background: black;
+}
+.content .contact-form form {
+  margin: 0;
+  padding: 50px;
+}
+.content .contact-form form button,
+.content .contact-form form input,
+.content .contact-form form textarea {
+  width: 90%;
+  padding: 1em;
+  color: black;
+  border-bottom: 1px solid black;
+}
+.content .contact-form form {
+  background-image: linear-gradient(to right, #e0bbe4 0%, #957dad 50%, #d291bc 60%, #fec8d8 80%, #ffdfd3 90%);
+  display: grid;
+  grid-template-columns: minmax(20%, 40%) minmax(20%, 40%);
+  grid-column-gap: 10%;
+}
+.content .envia {
+  margin: 20%;
+}
+
+/*Fin del formulario*/
+.menu {
+  text-align: center;
+  padding: 1em;
+}
+.menu li {
+  display: inline-block;
+}
+
+.contenido {
+  text-align: center;
+  padding: 0;
+}
+
+.seleccion {
+  padding: center;
+  display: grid;
+  grid-template-columns: minmax(15%, 25%) minmax(15%, 25%);
+}
+
+/*imagen decorativa en productos*/
+.anotador {
+  width: 100px;
+  height: 100px;
+  margin: 100px;
+}
+
+.scale {
+  transform: scale(2);
+}
+
+.skew {
+  transform: skew(15deg);
+}
+
+/*fin de la imagen decorativa en productos*/
+/*Inicio del Footer*/
+.footer {
+  padding: 2%;
+  text-align: center;
+  margin-top: center;
+}
+
+/*Fin del Footer*/
+/*media queri*/
+
+/*# sourceMappingURL=estilos.css.map */
